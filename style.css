@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;400&display=swap');
+
+@font-face {
+    font-family: 'queengrunge';
+    src: url(../resources/fonts/QueenInlineGrunge.ttf) format("truetype");
+}
+
+.colors {
+    color: #002b36;  /*bg-darker*/
+    color: #073642;    /*bg-dark*/
+    color: #586e75;
+    color: #657b83;
+    color: #839496;
+    color: #93a1a1;
+    color: #eee8d5;    /*bg-light*/
+    color: #fdf6e3;    /*bg-lighter*/
+    color: #b58900;
+    color: #cb4b16;
+    color: #dc322f;
+    color: #d33682;
+    color: #6c71c4;
+    color: #268bd2;
+    color: #2aa198;
+    color: #859900;
+}
+
+.darker-background {
+    background-color: #002b36;
+}
+
+.dark-background {
+    background-color: #073642;
+}
+
+a img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+}
+
+a img {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    max-height: 35vh;
+    height: auto;
+    width: auto;
+    padding: 10px 10px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav-custom {
+    color:#b58900;
+    font-family: "queengrunge";
+    font-size: x-large;
+    transition: all 0.2s;
+}
+
+.nav-custom:hover {
+    background-color: #073642;
+    color:#b58900;
+    border-radius: 5px;
+}
+
+#nav-active {
+    background-color: #eee8d5;
+    border-radius: 5px;
+}
+
+.contact-us {
+    text-decoration: none;
+    --bs-btn-color: #2aa198;
+    --bs-btn-border-color: #2aa198;
+    --bs-btn-hover-color: #002b36;
+    --bs-btn-hover-bg: #2aa198;
+    --bs-btn-hover-border-color: #2aa198;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #002b36;
+    --bs-btn-active-bg: #2aa198;
+    --bs-btn-active-border-color: #2aa198;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #2aa198;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #2aa198;
+    --bs-gradient: none;
+}
+
+body {
+    background-color: #073642;
+    margin: 5px 5px;
+}
+
+footer i {
+    color: #b58900;
+}
+
+h1 {
+    color: #2aa198;
+}
+
