@@ -32,14 +32,43 @@
     background-color: #073642;
 }
 
-a img:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=40);
+body {
+    background-color: #073642;
+    margin: 5px 5px;
+}
+
+footer i {
+    color: #b58900;
+}
+
+h1 {
+    font-family: "queengrunge";
+    font-size: xx-large;
+    color: #2aa198;
+}
+
+h2 {
+    font-family: "queengrunge";
+    font-size: x-large;
+    color: #2aa198;
+}
+
+h5 {
+    color: #859900;
+}
+
+p {
+    color:#2aa198;
 }
 
 a img {
     opacity: 1.0;
     filter: alpha(opacity=100);
+}
+
+a img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=40);
 }
 
 .banner {
@@ -93,16 +122,4 @@ a img {
     --bs-gradient: none;
 }
 
-body {
-    background-color: #073642;
-    margin: 5px 5px;
-}
-
-footer i {
-    color: #b58900;
-}
-
-h1 {
-    color: #2aa198;
-}
 
