@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'queengrunge';
-    src: url(../resources/fonts/QueenInlineGrunge.ttf) format("truetype");
+    src: url(./resources/fonts/QueenInlineGrunge.ttf) format("truetype");
 }
 
 .colors {
