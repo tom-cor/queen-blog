@@ -44,13 +44,13 @@ footer i {
 h1 {
     font-family: "queengrunge";
     font-size: xx-large;
-    color: #2aa198;
+    color: #859900;
 }
 
 h2 {
     font-family: "queengrunge";
     font-size: x-large;
-    color: #2aa198;
+    color: #859900;
 }
 
 h5 {
@@ -94,13 +94,13 @@ a img:hover {
 }
 
 .nav-custom:hover {
-    background-color: #073642;
+    background-color: #eee8d5;
     color:#b58900;
     border-radius: 5px;
 }
 
 #nav-active {
-    background-color: #eee8d5;
+    background-color: #073642;
     border-radius: 5px;
 }
 
