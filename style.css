@@ -111,6 +111,19 @@ a img:hover {
     -webkit-transform: scale(1.1);
 }
 
+.btn-custom {
+    border:#268bd2 solid 2px;
+    color:#b58900;
+    transition: all 0.2s;
+}
+
+.btn-custom:hover {
+    border:#268bd2 solid 2px;
+    color:#b58900;
+    background-color: #073642;
+    transform: scale(0.95);
+}
+
 #nav-active {
     text-decoration: underline 1px;
     border-radius: 5px;
