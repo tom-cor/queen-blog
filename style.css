@@ -67,8 +67,10 @@ a img {
 }
 
 a img:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=40);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    transform: scale(0.98);
+    transition: all 0.2s;
 }
 
 .banner {
