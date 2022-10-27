@@ -33,7 +33,6 @@
 }
 
 body {
-    background-color: #073642;
     margin: 5px 5px;
 }
 
@@ -105,7 +104,7 @@ a img:hover {
 }
 
 #nav-active {
-    background-color: #073642;
+    text-decoration: underline 1px;
     border-radius: 5px;
     transform: none;
     -moz-transform: none;
