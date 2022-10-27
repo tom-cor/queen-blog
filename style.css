@@ -96,10 +96,7 @@ a img:hover {
 }
 
 .nav-custom:hover {
-    /* background-color: #eee8d5; */
-    /* background-color: rgba(238, 232, 213, 0.5); */
     transform: scale(1.1) rotateZ(5deg);
-    /* transform: rotateZ(1deg); */
     color:#b58900;
     border-radius: 5px;
 }
