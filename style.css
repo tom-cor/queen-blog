@@ -98,10 +98,10 @@ a img:hover {
 .nav-custom:hover {
     color:#b58900;
     border-radius: 5px;
-    transform: scale(1.1) rotateZ(5deg);
-    -moz-transform: scale(1.1) rotateZ(5deg);
-    -o-transform: scale(1.1) rotateZ(5deg);
-    -webkit-transform: scale(1.1) rotateZ(5deg);
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 #nav-active {
