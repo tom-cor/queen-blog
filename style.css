@@ -64,13 +64,13 @@ p {
 a img {
     opacity: 1.0;
     filter: alpha(opacity=100);
+    transition: all 0.2s;
 }
 
 a img:hover {
     opacity: 0.8;
     filter: alpha(opacity=80);
     transform: scale(0.98);
-    transition: all 0.2s;
 }
 
 .banner {
@@ -96,7 +96,10 @@ a img:hover {
 }
 
 .nav-custom:hover {
-    background-color: #eee8d5;
+    /* background-color: #eee8d5; */
+    /* background-color: rgba(238, 232, 213, 0.5); */
+    transform: scale(1.1) rotateZ(5deg);
+    /* transform: rotateZ(1deg); */
     color:#b58900;
     border-radius: 5px;
 }
@@ -104,6 +107,7 @@ a img:hover {
 #nav-active {
     background-color: #073642;
     border-radius: 5px;
+    transform: none;
 }
 
 .contact-us {
