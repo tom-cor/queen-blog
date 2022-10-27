@@ -32,6 +32,14 @@
     background-color: #073642;
 }
 
+.light-background {
+    background-color: #eee8d5;
+}
+
+.lighter-background {
+    background-color: #fdf6e3;
+}
+
 body {
     margin: 5px 5px;
 }
@@ -147,6 +155,10 @@ a img:hover {
         -o-transform: skewX(-20deg);
         -webkit-transform: skewX(-20deg);
     }
+}
+
+.carousel i {
+    font-size:xx-large;
 }
 
 .contact-us {
