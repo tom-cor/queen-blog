@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;400&display=swap");
+
+@font-face {
+    font-family: "queengrunge";
+    src: url("../resources/fonts/QueenInlineGrunge.ttf") format("truetype");
+}
+
+@import './base/colours';
+@import './base/body';
+@import './base/textFormat';
+@import './components/imageLink';
+@import './components/header';
+@import './components/nav';
+@import './components/bioCard';
+@import './components/animations'
