@@ -1,23 +1,23 @@
 i {
-    color: #b58900;
+    color: $hyperlink-colour;
 }
 
 h1 {
     font-family: "queengrunge";
     font-size: xx-large;
-    color: #859900;
+    color: $title-colour;
 }
 
 h2 {
     font-family: "queengrunge";
     font-size: x-large;
-    color: #859900;
+    color: $title-colour;
 }
 
 h5 {
-    color: #859900;
+    color: $title-colour;
 }
 
 p {
-    color:#2aa198;
+    color: $text-colour;
 }
