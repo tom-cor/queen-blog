@@ -48,7 +48,7 @@ h5 {
 }
 
 p {
-  color: #2aa198;
+  color: #268bd2;
 }
 
 a img {
@@ -116,22 +116,14 @@ nav {
   -webkit-transform: none;
 }
 
-.contact-us {
+.review-us {
   text-decoration: none;
-  --bs-btn-color: #2aa198;
-  --bs-btn-border-color: #2aa198;
-  --bs-btn-hover-color: #002b36;
-  --bs-btn-hover-bg: #2aa198;
-  --bs-btn-hover-border-color: #2aa198;
-  --bs-btn-focus-shadow-rgb: 25,135,84;
-  --bs-btn-active-color: #002b36;
-  --bs-btn-active-bg: #2aa198;
-  --bs-btn-active-border-color: #2aa198;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #2aa198;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #2aa198;
-  --bs-gradient: none;
+  color: #2aa198;
+  border: #2aa198 solid 1px;
+}
+.review-us:hover {
+  background-color: #2aa198;
+  color: #002b36;
 }
 
 .card-custom {
