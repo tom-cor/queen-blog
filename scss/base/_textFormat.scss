@@ -21,3 +21,13 @@ h5 {
 p {
     color: $text-colour;
 }
+
+article p:first-child::first-letter {
+    color: $article-first-letter-colour;
+    font-family: "queengrunge";
+    
+    font-size: 4.5rem;
+    float: left;
+    line-height: 0.65;
+    margin-right: .5rem;
+}
