@@ -147,8 +147,8 @@ nav {
 
 .bio-card-custom {
   background-color: #002b36;
-  clear: right;
   float: right;
+  margin: 0px 10px;
 }
 
 .animacion:hover {
