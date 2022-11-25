@@ -1,3 +1,23 @@
 main {
     margin: 0 30px;
 }
+
+.main-content {
+    background-color: $darker-background;
+    border-radius: 40px;
+
+}
+
+.newsletter-input {
+    background-color: $dark-background;
+    text-decoration: none;
+    color: $text-colour;
+    border: none;
+    border-radius: 5px;
+    width: 30vw;
+}
+
+.review-input {
+    @extend .newsletter-input;
+    width: 60vw;
+}

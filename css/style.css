@@ -31,6 +31,24 @@ main {
   margin: 0 30px;
 }
 
+.main-content {
+  background-color: #002b36;
+  border-radius: 40px;
+}
+
+.newsletter-input, .review-input {
+  background-color: #073642;
+  text-decoration: none;
+  color: #93a1a1;
+  border: none;
+  border-radius: 5px;
+  width: 30vw;
+}
+
+.review-input {
+  width: 60vw;
+}
+
 i {
   color: #b58900;
 }
@@ -146,7 +164,7 @@ nav {
 }
 
 .bio-card-custom {
-  background-color: #002b36;
+  background-color: #073642;
   float: right;
   margin: 0px 10px;
 }
